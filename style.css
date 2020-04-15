@@ -25,40 +25,30 @@ header {
     position: absolute;
 }
 
-
-img {
-    width: 100%;
-    max-width: 100%;
-    height:auto;
-    vertical-align: middle;
-}
-
 h1 {
-    color: #B20000;
+    color: #545454;
     text-transform: none;
     font-size: 2em;
     letter-spacing: 0em;
 }
 H2 {
+    font-variant: small-caps;
     color:#545454;
-    text-align: center;
 }
 
 h3 {
+    font-variant: small-caps;
     color:#545454;
-    text-align: center;
 }
 
 p {
-    align-content: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.25em;
+    font-size: 1.1em;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     color:#545454;
     text-align: justify;
 }
-
 
 a:link {
     color:#4D4D4D;
@@ -81,8 +71,6 @@ a:hover {
     margin-right: auto;
 }
     
-
-
 .row:before, .row:after {
     content:"";
     display:table;
@@ -93,6 +81,7 @@ a:hover {
 }
 
 .row {
+    padding:2em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,7 +90,24 @@ a:hover {
     position:relative;
     width: 80%;
     text-align: justify;
-    align-self: center;    
+    align-self: center;  
+    color:#FFFFFF;
+}
+
+.row1 p {
+    position:relative;
+    width: 80%;
+    text-align: justify;
+    align-self: center;  
+    color:#FFFFFF;
+}
+
+.row h2 {
+    color:#FFFFFF;
+}
+
+.row1 h2 {
+    color:#FFFFFF;
 }
 
 .sidebar {
@@ -109,7 +115,7 @@ a:hover {
     width: 30%;
     height: 600px;
     padding:1em;
-    background-color: #90D4DF;
+    background-color: #3E496A;
     background-size: cover;
     position:relative;
     display: block;
@@ -128,10 +134,9 @@ a:hover {
 }
 
 .sidebar a {
-    color: #90D4DF;
+    color: #3E496A;
     position: relative;
 }
-
 
 .sidebar1 {
     float:left;
@@ -139,13 +144,13 @@ a:hover {
     width: 30%;
     padding: 1em;
     background-size: cover;
-    background-color: #FDD4EA;
+    background-color:#79090B;
     position:relative;
     display:block;
 }
 
 .sidebar1 a {
-    color: #FDD4EA;
+    color: #79090B;
 }
 
 .sidebar2 {
@@ -153,14 +158,93 @@ a:hover {
     width: 30%;
     height: 600px;
     padding: 1em;
-    background-color: #A0F8DE;
+    background-color:#105518;
     background-size: cover;
     postion:relative;
     display:block;
 }
 
 .sidebar2 a {
-    color: #A0F8DE;
+    color: #105518;
 }
+
+.sidebar3 {
+    float:left;
+    width: 30%;
+    height: 600px;
+    padding: 1em;
+    background-color:#473161;
+    background-size: cover;
+    postion:relative;
+    display:block;
+}
+
+.sidebar2 a {
+    color: #473161;
+}
+.box {
+    float:left;
+    width: 45%;
+    height: 300px;
+    padding:1em;
+    background-color: #3E496A;
+    background-size: cover;
+    position:relative;
+    display: block;
+}
+
+.box a {
+    color: #3E496A;
+    position: relative;
+}
+
+.box1 {
+    float:right;
+    hight: 300px;
+    width: 45%;
+    padding: 1em;
+    background-size: cover;
+    background-color:#79090B;
+    position:relative;
+    display:block;
+}
+
+.box1 a {
+    color: #79090B;
+}
+
+.box2 {
+    float:left;
+    width: 45%;
+    height: 300px;
+    padding: 1em;
+    background-color:#105518;
+    background-size: cover;
+    postion:relative;
+    display:block;
+}
+
+.box2 a {
+    color: #105518;
+}
+
+.box3 {
+    float:right;
+    width: 45%;
+    height: 300px;
+    padding: 1em;
+    background-color:#473161;
+    background-size: cover;
+    postion:relative;
+    display:block;
+}
+
+.box3 a {
+    color: #473161;
+}
+
+
+
+
 
 
